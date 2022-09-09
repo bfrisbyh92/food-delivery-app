@@ -5,3 +5,8 @@ Time spent Start to Finish
 [![wakatime](https://wakatime.com/badge/github/bfrisbyh92/food-delivery-app.svg)](https://wakatime.com/badge/github/bfrisbyh92/food-delivery-app?style=social)
 
 <img src="https://wakatime.com/badge/github/bfrisbyh92/food-delivery-app.svg" alt="none" width=400 height=auto />
+
+## Stage 1
+
+![image](/assets/Deliveroo.png)
+![image](/assets/Deliveroo2.png)
