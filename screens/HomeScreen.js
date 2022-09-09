@@ -1,4 +1,11 @@
-import { View, Text, SafeAreaView, Image, TextInput } from "react-native";
+import {
+  View,
+  Text,
+  SafeAreaView,
+  Image,
+  TextInput,
+  ScrollView,
+} from "react-native";
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { useLayoutEffect } from "react";
@@ -7,6 +14,7 @@ import { FontAwesome5 } from "@expo/vector-icons";
 import { Entypo } from "@expo/vector-icons";
 import { FontAwesome } from "@expo/vector-icons";
 import Categories from "../components/Categories";
+import FeaturedRow from "../components/FeaturedRow";
 
 export default function HomeScreen() {
   const navigation = useNavigation();
@@ -51,20 +59,37 @@ export default function HomeScreen() {
       </View>
 
       {/* Body */}
-      {/* <ScrollView 
+      <ScrollView
         className="bg-gray-100"
-        contentContainerStyle={{ 
-           paddingBottom: 100,
-           }}
-           >
-           <Text>Body</Text>
-           </ScrollView> */}
+        contentContainerStyle={{
+          paddingBottom: 100,
+        }}
+      >
+        {/* Categories */}
+        <Categories />
 
-           {/* Categories */}
-           <Categories />
+        {/* Featured Rows */}
+        <FeaturedRow
+          title="Featured"
+          id="1"
+          description="Paid placements from our partners"
+          featuredCategory="featured"
+        />
 
-           {/* Featured Rows */}
-           
+        <FeaturedRow
+          title="Tasty Discounts"
+          id="2"
+          description="Everyone can be enjoying these discounts!"
+          featuredCategory="discounts"
+        />
+
+        <FeaturedRow
+          title="Offers near you!"
+          id="3"
+          description="Support your local small owned restaurants"
+          featuredCategory="offers"
+        />
+      </ScrollView>
     </SafeAreaView>
   );
 }
