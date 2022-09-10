@@ -38,6 +38,32 @@ const FeaturedRow = ({ title, description, id }) => {
           lat={0}
         />
 
+        <RestaurantCard
+          id={1}
+          imgUrl="https://links.papareact.com/gn7"
+          title="Sushi!!"
+          rating={4.5}
+          genre="Japanese"
+          address="213 Main Street"
+          short_description="Amazing food from Japan"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+
+        <RestaurantCard
+          id={1}
+          imgUrl="https://links.papareact.com/gn7"
+          title="Sushi!!"
+          rating={4.5}
+          genre="Japanese"
+          address="213 Main Street"
+          short_description="Amazing food from Japan"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+
         {/* {restaurants?.map((restaurant) => (
           <RestaurantCard
             key={restaurant._id}

@@ -12,6 +12,8 @@
     "@expo/webpack-config": "^0.16.19",
     "@react-navigation/native": "^6.0.12",
     "@react-navigation/native-stack": "^6.8.0",
+    "@sanity/client": "^3.4.1",
+    "@sanity/image-url": "^1.0.1",
     "expo": "~46.0.9",
     "expo-status-bar": "~1.4.0",
     "react": "18.0.0",

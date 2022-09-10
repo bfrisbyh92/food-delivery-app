@@ -21,7 +21,7 @@ const RestaurantCard = ({
   const navigation = useNavigation();
 
   return (
-    <TouchableOpacity>
+    <TouchableOpacity className="bg-white mr-3 shadow">
       <Image
         source={{
           uri: imgUrl,
@@ -41,7 +41,7 @@ const RestaurantCard = ({
 
         <View className="flex-row items-center space-x-1">
           <EvilIcons name="location" size={22} color="gray" opacity={0.4} />
-          <Text className="text-xs text-gray-500">Nearby * </Text>
+          <Text className="text-xs text-gray-500">Nearby * {address} </Text>
         </View>
       </View>
     </TouchableOpacity>
