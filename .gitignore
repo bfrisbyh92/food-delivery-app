@@ -1,5 +1,10 @@
 node_modules/
+.env
+.gitignore
 .expo/
+.stash
+stash/
+stash
 dist/
 npm-debug.*
 *.jks
