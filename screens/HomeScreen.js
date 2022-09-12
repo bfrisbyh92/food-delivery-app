@@ -61,11 +61,11 @@ const HomeScreen = () => {
         <View className="flex-1">
           <Text className="font-bold text-gray-400 text-xs">Deliver Now!</Text>
           <Text className="font-bold text-xl">
-            Current Location <ChevronDownIcon size={20} color="#00ccbb" />
+            Current Location <ChevronDownIcon size={20} color="#87CEEB" />
           </Text>
         </View>
 
-        <UserIcon size={30} color="#00ccbb" />
+        <UserIcon size={30} color="#87CEEB" />
       </View>
 
       {/* Search */}
@@ -78,7 +78,7 @@ const HomeScreen = () => {
           />
         </View>
 
-        <AdjustmentsIcon color="#00ccbb" />
+        <AdjustmentsIcon color="#87CEEB" />
       </View>
 
       {/* Body */}
