@@ -64,7 +64,7 @@ const BasketScreen = () => {
             className="h-7 w-7 bg-gray-300 p-4 rounded-full"
           />
           <Text className="flex-1">Deliver in 50-75 min</Text>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={navigation.goBack}>
             <Text className="text-[#87CEEB]">Change</Text>
           </TouchableOpacity>
         </View>
@@ -120,7 +120,10 @@ const BasketScreen = () => {
           </View>
 
           {/* Place Order */}
-          <TouchableOpacity className="rounded-lg bg-[#87CEEB] p-4" onPress={() => navigation.navigate('PreparingOrderScreen')}>
+          <TouchableOpacity
+            className="rounded-lg bg-[#87CEEB] p-4"
+            onPress={() => navigation.navigate("PreparingOrderScreen")}
+          >
             <Text className="text-center text-white text-lg font-bold">
               Place Order
             </Text>
