@@ -17,6 +17,7 @@ const Categories = () => {
         setCategories(data);
       });
   }, []);
+
   return (
     <ScrollView
       horizontal
@@ -32,7 +33,7 @@ const Categories = () => {
           title={category.name}
         />
       ))}
-    </ScrollView> 
+    </ScrollView>
   );
 };
 

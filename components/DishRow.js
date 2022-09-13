@@ -1,9 +1,9 @@
 import { View, Text, TouchableOpacity, Image } from "react-native";
-import React, { useState } from "react";
-import Currency from "react-currency-formatter";
 import { MinusCircleIcon, PlusCircleIcon } from "react-native-heroicons/solid";
+import React, { useState } from "react";
 import { urlFor } from "../sanity";
 import { useDispatch, useSelector } from "react-redux";
+import Currency from "react-currency-formatter";
 import {
   addToBasket,
   selectBasketItems,
