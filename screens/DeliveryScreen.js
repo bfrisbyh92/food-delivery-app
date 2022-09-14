@@ -43,8 +43,7 @@ const DeliveryScreen = () => {
           <Progress.Bar size={30} color="#87CEEB" indeterminate={true} />
 
           <Text className="mt-3 text-gray-500">
-            Our stats show, if you tip less than 10% our drivers are 80% less
-            likely to accept your order.
+            {" "}
           </Text>
           <Text className="mt-6 text-lightgray-500">
             {restaurant.title} is firing up your order. Don't be rude, tip your
@@ -79,7 +78,7 @@ const DeliveryScreen = () => {
         />
         <View className="flex-1">
           <Text className="text-lg">Brendan Frisby</Text>
-          <Text className="text-gray-400">Your Rider</Text>
+          <Text className="text-gray-400">Delivery Driver</Text>
         </View>
 
         <Text className="text-[#87CEEB] text-lg mr-5 font-bold">Call</Text>
